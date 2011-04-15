@@ -1,6 +1,10 @@
 = pure_function
 
-Description goes here.
+pure_function is just a bit of code I wrote to speed up our tests by ensuring that you never call some specified
+heavy code twice but still always return the same value. The cononical example is heavy factories in context
+setups. With this code I brought down the run time of one of our test files from 120 seconds to a bit over 7 seconds.
+
+http://techmology.posterous.com/44931313
 
 == Contributing to pure_function
  

@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "pure_function"
   gem.homepage = "http://github.com/timgaleckas/pure_function"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Turn a block of code into a pure function}
+  gem.description = %Q{Ensure that no matter how many times you call the same block it'll always return the same cached value}
   gem.email = "tim@galeckas.com"
   gem.authors = ["Tim Galeckas"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
